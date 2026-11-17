@@ -69,3 +69,11 @@ To develop a robust, automated Oracle database system using PL/SQL that manages 
 *Supporting Documents:*
 * [Business Process Diagram (PDF)](docs/business_process/business_process_diagram.pdf)
 * [Business Process Explanation (PDF)](docs/business_process/business_process_explanation.pdf)
+
+
+## Phase II - Data Sourcing and Normalization
+*   *Raw Dataset:* [ikimina_loans_raw.csv](data/raw/ikimina_loans_raw.csv)
+*   *Dataset Card:* [dataset_card.md](data/dataset_card.md)
+*   *Normalization Steps:* [normalization.md](docs/design/normalization.md)
+*   *Data Dictionary:* [data_dictionary.md](docs/design/data_dictionary.md)
+*   *Logical ERD:* [erd.png](docs/design/erd.png)
