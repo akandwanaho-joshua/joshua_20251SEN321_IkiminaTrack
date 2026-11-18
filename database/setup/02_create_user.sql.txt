@@ -1,0 +1,7 @@
+-- Name: Akandwanaho Joshua
+-- Student ID: 20251SEN321
+-- Group: Group I
+-- Project: Ikimina
+
+ALTER SESSION SET CONTAINER = g1_20251sen321_joshua_ikimina_db;
+GRANT DBA TO joshua_admin;

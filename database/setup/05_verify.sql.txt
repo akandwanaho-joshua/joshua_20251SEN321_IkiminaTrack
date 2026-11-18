@@ -1,0 +1,13 @@
+-- Name: Akandwanaho Joshua
+-- Student ID: 20251SEN321
+-- Group: Group I
+-- Project: Ikimina
+
+SELECT name, open_mode FROM v$pdbs WHERE name = 'G1_20251SEN321_JOSHUA_IKIMINA_DB';
+
+SELECT username, default_tablespace, temporary_tablespace FROM dba_users WHERE username = 'JOSHUA_ADMIN';
+
+SELECT tablespace_name, file_name, bytes/1024/1024 AS size_mb, autoextensible, maxbytes/1024/1024 AS max_mb 
+FROM dba_data_files WHERE tablespace_name IN ('IKIMINA_DATA', 'IKIMINA_IDX');
+
+ARCHIVE LOG LIST;

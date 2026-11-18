@@ -1,0 +1,11 @@
+-- Name: Akandwanaho Joshua
+-- Student ID: 20251SEN321
+-- Group: Group I
+-- Project: Ikimina
+
+CREATE PLUGGABLE DATABASE g1_20251sen321_joshua_ikimina_db
+  ADMIN USER joshua_admin IDENTIFIED BY joshua
+  FILE_NAME_CONVERT = ('C:\APP\ORADATA\ORCL\PDBSEED\', 'C:\APP\ORADATA\ORCL\g1_20251sen321_joshua_ikimina_db\');
+
+ALTER PLUGGABLE DATABASE g1_20251sen321_joshua_ikimina_db OPEN;
+ALTER PLUGGABLE DATABASE g1_20251sen321_joshua_ikimina_db SAVE STATE;

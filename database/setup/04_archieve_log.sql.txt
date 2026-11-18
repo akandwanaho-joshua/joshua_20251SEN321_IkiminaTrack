@@ -1,0 +1,12 @@
+-- Name: Akandwanaho Joshua
+-- Student ID: 20251SEN321
+-- Group: Group I
+-- Project: Ikimina
+
+ARCHIVE LOG LIST;
+
+/*
+Explanation: Archive logging is a Container Database (CDB) setting, not a Pluggable Database (PDB) setting. 
+Because a PDB shares the same physical redo log files as the root container, you cannot enable archive logging 
+for just one PDB. It must be enabled at the CDB level with SYSDBA privileges, which requires a database restart.
+*/
