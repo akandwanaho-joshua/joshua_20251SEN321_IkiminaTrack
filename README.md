@@ -77,3 +77,9 @@ To develop a robust, automated Oracle database system using PL/SQL that manages 
 *   *Normalization Steps:* [normalization.md](docs/design/normalization.md)
 *   *Data Dictionary:* [data_dictionary.md](docs/design/data_dictionary.md)
 *   *Logical ERD:* [erd.png](docs/design/erd.png)
+
+
+
+## Phase III - Database (PDB) Creation
+*   *SQL Scripts:* [database/setup/](database/setup/)
+*   *Screenshots:* [screenshots/](screenshots/)
